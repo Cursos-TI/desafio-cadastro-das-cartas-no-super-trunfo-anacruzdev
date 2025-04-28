@@ -43,7 +43,9 @@ int main() {
     superPoder1 = (float)populacao1 + area1 + pib1 + (float)pontosTuristicos1 + pibPerCapta1 + (1.0 / densidade1);
 
     // Exibição da Carta 1 (formulário ao qual vai ser exibido)
+    printf("--------------------------------------------\n");
     printf("\n--- Carta 1 ---\n");
+    printf("--------------------------------------------\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", nomeCidade1);
@@ -98,7 +100,9 @@ int main() {
     superPoder2 = (float)populacao2 + area2 + pib2 + (float)pontosTuristicos2 + pibPerCapta2 + (1.0 / densidade2);
 
     // Exibição da Carta 2 (formulário ao qual vai ser exibido)
+    printf("--------------------------------------------\n");
     printf("\n--- Carta 2 ---\n");
+    printf("--------------------------------------------\n");
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", nomeCidade2);
@@ -109,11 +113,14 @@ int main() {
     printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
     printf("PIB Per Capita: R$ %.2f\n", pibPerCapta2);
 
+    printf("--------------------------------------------\n");
     printf("\nResultado das comparações:\n");
     printf("(1 = Carta 1 venceu, 0 = Carta 2 venceu)\n\n");
 
     //Comparação dos atributos:
+    printf("--------------------------------------------\n");
     printf("\n--- Comparação dos Atributos ---\n");
+    printf("--------------------------------------------\n");
     printf("%-25s %d\n", "População:", populacao1 > populacao2);
     printf("%-25s %d\n", "Área:", area1 > area2);
     printf("%-25s %d\n", "PIB:", pib1 > pib2);
@@ -121,6 +128,7 @@ int main() {
     printf("%-25s %d\n", "PIB per Capita:", pibPerCapta1 > pibPerCapta2);
     printf("%-25s %d\n", "Densidade:", densidade1 < densidade2); //o menor vence
     printf("%-25s %d\n", "Super Poder:", superPoder1 > superPoder2);
+    printf("--------------------------------------------\n");
 
     return 0;
 }
