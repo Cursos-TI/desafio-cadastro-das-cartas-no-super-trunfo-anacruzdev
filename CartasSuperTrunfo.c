@@ -17,19 +17,19 @@ int main() {
     printf("Digite o estado da Carta 1: \n");
     scanf(" %c", &estado1);
 
-    printf("Digite o Código 1: \n");
+    printf("Digite o Código: \n");
     scanf("%s", codigo1);
 
     printf("Digite o nome da Cidade: \n");
     scanf("%s", nomeCidade1);
 
-    printf("Digite o número correspondente a População 1: \n");
+    printf("Digite o número correspondente a População: \n");
     scanf("%lu", &populacao1);
 
-    printf("Digite o número correspondente a Área 1: \n");
+    printf("Digite o número correspondente a Área: \n");
     scanf("%f", &area1);
 
-    printf("Digite o número correspondente ao Pib 1: \n");
+    printf("Digite o número correspondente ao PIB: \n");
     scanf("%f", &pib1);
 
     printf("Digite o número de Pontos Turísticos: \n");
@@ -74,19 +74,19 @@ int main() {
     printf("Digite o estado da Carta 2: \n");
     scanf(" %c", &estado2); // <-- colocar o espaço para não dar buffer por causa de espaço em branco
 
-    printf("Digite o Código 2: \n");
+    printf("Digite o Código: \n");
     scanf("%s", codigo2);
 
     printf("Digite o nome da Cidade: \n");
     scanf("%s", nomeCidade2);
 
-    printf("Digite o número correspondente a População 2: \n");
+    printf("Digite o número correspondente a População: \n");
     scanf("%lu", &populacao2);
 
-    printf("Digite o número correspondente a Área 2: \n");
+    printf("Digite o número correspondente a Área: \n");
     scanf("%f", &area2);
 
-    printf("Digite o número correspondente ao Pib 2: \n");
+    printf("Digite o número correspondente ao PIB: \n");
     scanf("%f", &pib2);
 
     printf("Digite o número de Pontos Turísticos: \n");
